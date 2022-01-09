@@ -1,2 +1,2 @@
 # Golang-blog
-Golang blog project (based on gin)
+Golang实现的blog博客项目

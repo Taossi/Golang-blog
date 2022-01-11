@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var db *gorm.DB
+var db *gorm.DB // 全局变量db 作用于整个model下
 var err error
 
 func InitDB() *gorm.DB {

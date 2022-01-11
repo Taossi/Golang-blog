@@ -2,7 +2,7 @@ package errormessage
 
 /*
 	错误处理代码接口
-	code ------ error string
+	code int ------> error string
 */
 
 const (

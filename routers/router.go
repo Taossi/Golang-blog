@@ -20,6 +20,12 @@ func InitRouters() {
 
 		// 文章模块路由接口
 
+		// 分类模块路由接口
+		router.POST("category/add", v1.AddCategory)
+		router.GET("category", v1.GetCategory)
+		router.DELETE("category/:id", v1.DeleteCategory)
+		router.PUT("category/:id", v1.EditCategory)
+
 	}
 
 	port := viper.GetString("server.port")

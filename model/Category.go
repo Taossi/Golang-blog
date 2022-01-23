@@ -62,7 +62,7 @@ func GetCategory(pageSize int, pageNum int) []Category {
 }
 
 /**
- * @Description: 编辑分类信息 (不包括密码)
+ * @Description: 编辑分类信息
  * @return code int
  */
 func EditCategory(id int, cate *Category) int {
